@@ -14,7 +14,7 @@ public class EmailNotifier implements Notifier {
 
     public void send(User user, String message) {
     if (user.hasEmail) {
-        System.out.println("Kære " + user.userName + " Du har fået mail, der står: " + message);
+        System.out.println("Kære " + user.userName + " Du har fået mail: " + message);
         }
     }
 }

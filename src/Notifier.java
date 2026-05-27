@@ -1,6 +1,9 @@
+
+
 interface Notifier {
 
-    void send(String message);
+    void send(User user, String message);
+
 
 }
 
